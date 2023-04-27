@@ -1,0 +1,1343 @@
+{
+    "results": [
+        {
+            "path": "memento/src/main/java/com/iluwatar/memento/Star.java",
+            "sha": "a1d1fca251ad689a3d40372a270d1c15c2a58296",
+            "ref_name": "refs/heads/master",
+            "language": "Java",
+            "repo_id": 22790488,
+            "commit_sha": "4bea173e642ce550d84075af0e43efa7f61be359",
+            "repo_name": "iluwatar/java-design-patterns",
+            "snippets": [
+                {
+                    "lines": [
+                        "\u003cspan class=pl-c\u003e */\u003c/span\u003e",
+                        "\u003cspan class=pl-k\u003epublic\u003c/span\u003e \u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e \u003cspan class=pl-smi\u003eStar\u003c/span\u003e {",
+                        ""
+                    ],
+                    "start_line": 29
+                },
+                {
+                    "lines": [
+                        "\u003cspan class=pl-c\u003e   */\u003c/span\u003e",
+                        "  \u003cspan class=pl-k\u003eprivate\u003c/span\u003e \u003cspan class=pl-k\u003estatic\u003c/span\u003e \u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e \u003cspan class=pl-smi\u003eStarMementoInternal\u003c/span\u003e \u003cspan class=pl-k\u003eimplements\u003c/span\u003e \u003cspan class=pl-smi\u003eStarMemento\u003c/span\u003e {",
+                        ""
+                    ],
+                    "start_line": 87
+                }
+            ],
+            "match_count": 2,
+            "matches": [
+                {
+                    "start": 1385,
+                    "end": 1390
+                },
+                {
+                    "start": 2703,
+                    "end": 2708
+                }
+            ],
+            "scoring_info": {
+                "score": -3.8500357,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    8,
+                    10
+                ],
+                "contributions": [
+                    -3.7014942,
+                    -5.1485415,
+                    0,
+                    0,
+                    5,
+                    0,
+                    0,
+                    0
+                ],
+                "symbol_matches": 0
+            }
+        },
+        {
+            "path": "guava/src/com/google/common/base/Utf8.java",
+            "sha": "f1209bf457309edc6cdcdc79cc79c9f40fc00638",
+            "ref_name": "refs/heads/master",
+            "language": "Java",
+            "repo_id": 20300177,
+            "commit_sha": "2b98d3c1e96b750dc997c29f283084aeb72fb3cf",
+            "repo_name": "google/guava",
+            "snippets": [
+                {
+                    "lines": [
+                        "\u003cspan class=pl-c\u003e *\u003c/span\u003e",
+                        "\u003cspan class=pl-c\u003e * \u0026lt;p\u0026gt;The variant of UTF-8 implemented by this \u003cmark\u003eclass\u003c/mark\u003e is the restricted definition of UTF-8\u003c/span\u003e",
+                        "\u003cspan class=pl-c\u003e * introduced in Unicode 3.1. One implication of this is that it rejects \u0026lt;a\u003c/span\u003e"
+                    ],
+                    "start_line": 28
+                },
+                {
+                    "lines": [
+                        "\u003cspan class=pl-c1\u003e@\u003c/span\u003e\u003cspan class=pl-c1\u003eElementTypesAreNonnullByDefault\u003c/span\u003e",
+                        "\u003cspan class=pl-k\u003epublic\u003c/span\u003e \u003cspan class=pl-k\u003efinal\u003c/span\u003e \u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e \u003cspan class=pl-smi\u003eUtf8\u003c/span\u003e {",
+                        "  \u003cspan class=pl-c\u003e/**\u003c/span\u003e"
+                    ],
+                    "start_line": 39
+                }
+            ],
+            "match_count": 2,
+            "matches": [
+                {
+                    "start": 1188,
+                    "end": 1193
+                },
+                {
+                    "start": 1608,
+                    "end": 1613
+                }
+            ],
+            "scoring_info": {
+                "score": -6.9440346,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    8,
+                    10,
+                    13
+                ],
+                "contributions": [
+                    -5.1343956,
+                    -4.172774,
+                    0,
+                    0,
+                    2.8631344,
+                    0,
+                    0,
+                    0,
+                    -0.5
+                ],
+                "symbol_matches": 0
+            }
+        },
+        {
+            "path": "tensorflow/examples/android/src/org/tensorflow/demo/ClassifierActivity.java",
+            "sha": "b26a2316782dfbcde73c75556b99e624e836549d",
+            "ref_name": "refs/heads/master",
+            "language": "Java",
+            "repo_id": 86494695,
+            "commit_sha": "607e9e6e68113c8ac7372ad2704644cab16d2372",
+            "repo_name": "joytunes/tensorflow",
+            "snippets": [
+                {
+                    "lines": [
+                        "\u003cspan class=pl-k\u003eimport\u003c/span\u003e \u003cspan class=pl-s1\u003eorg\u003c/span\u003e.\u003cspan class=pl-s1\u003etensorflow\u003c/span\u003e.\u003cspan class=pl-s1\u003edemo\u003c/span\u003e.\u003cspan class=pl-s1\u003eenv\u003c/span\u003e.\u003cspan class=pl-s1\u003eLogger\u003c/span\u003e;",
+                        "\u003cspan class=pl-k\u003eimport\u003c/span\u003e \u003cspan class=pl-s1\u003eorg\u003c/span\u003e.\u003cspan class=pl-s1\u003etensorflow\u003c/span\u003e.\u003cspan class=pl-s1\u003edemo\u003c/span\u003e.\u003cspan class=pl-s1\u003eR\u003c/span\u003e;",
+                        "",
+                        "\u003cspan class=pl-k\u003epublic\u003c/span\u003e \u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e \u003cmark\u003e\u003cspan class=pl-s1\u003eClass\u003c/span\u003e\u003c/mark\u003e\u003cspan class=pl-smi\u003eifierActivity\u003c/span\u003e \u003cspan class=pl-k\u003eextends\u003c/span\u003e \u003cspan class=pl-smi\u003eCameraActivity\u003c/span\u003e \u003cspan class=pl-k\u003eimplements\u003c/span\u003e \u003cspan class=pl-smi\u003eOnImageAvailableListener\u003c/span\u003e {",
+                        "  \u003cspan class=pl-k\u003eprivate\u003c/span\u003e \u003cspan class=pl-k\u003estatic\u003c/span\u003e \u003cspan class=pl-k\u003efinal\u003c/span\u003e \u003cspan class=pl-smi\u003eLogger\u003c/span\u003e \u003cspan class=pl-c1\u003eLOGGER\u003c/span\u003e = \u003cspan class=pl-k\u003enew\u003c/span\u003e \u003cspan class=pl-smi\u003eLogger\u003c/span\u003e();",
+                        "",
+                        "  \u003cspan class=pl-c\u003e// These are the settings for the original v1 Inception model. If you want to\u003c/span\u003e"
+                    ],
+                    "start_line": 39
+                }
+            ],
+            "match_count": 13,
+            "matches": [
+                {
+                    "start": 1425,
+                    "end": 1430
+                },
+                {
+                    "start": 1431,
+                    "end": 1436
+                },
+                {
+                    "start": 1431,
+                    "end": 1436
+                },
+                {
+                    "start": 2937,
+                    "end": 2942
+                },
+                {
+                    "start": 2948,
+                    "end": 2953
+                },
+                {
+                    "start": 2948,
+                    "end": 2953
+                },
+                {
+                    "start": 4060,
+                    "end": 4065
+                },
+                {
+                    "start": 4096,
+                    "end": 4101
+                },
+                {
+                    "start": 7110,
+                    "end": 7115
+                },
+                {
+                    "start": 7144,
+                    "end": 7149
+                },
+                {
+                    "start": 7544,
+                    "end": 7549
+                },
+                {
+                    "start": 8142,
+                    "end": 8147
+                },
+                {
+                    "start": 8192,
+                    "end": 8197
+                }
+            ],
+            "scoring_info": {
+                "score": -10.248104,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    8,
+                    10,
+                    13
+                ],
+                "contributions": [
+                    -25.704597,
+                    0,
+                    0,
+                    0,
+                    5,
+                    -5,
+                    0,
+                    16.456493,
+                    -1
+                ],
+                "symbol_matches": 2
+            }
+        },
+        {
+            "path": "tensorflow/java/src/gen/java/org/tensorflow/processor/OperatorProcessor.java",
+            "sha": "45e42878c770b3c19d96790e5b4bf2ed41a0de29",
+            "ref_name": "refs/heads/master",
+            "language": "Java",
+            "repo_id": 60364166,
+            "commit_sha": "cb7cb40a57fde5cfd4731bc551e82a1e2fef43a5",
+            "repo_name": "benoitsteiner/tensorflow-opencl",
+            "snippets": [
+                {
+                    "lines": [
+                        "    }",
+                        "  }",
+                        "",
+                        "  \u003cspan class=pl-k\u003eprivate\u003c/span\u003e \u003cspan class=pl-smi\u003eboolean\u003c/span\u003e \u003cspan class=pl-en\u003ecollectOp\u003c/span\u003e\u003cmark\u003e\u003cspan class=pl-s1\u003eClass\u003c/span\u003e\u003c/mark\u003e\u003cspan class=pl-s1\u003ees\u003c/span\u003e(",
+                        "      \u003cspan class=pl-smi\u003eRoundEnvironment\u003c/span\u003e \u003cspan class=pl-s1\u003eroundEnv\u003c/span\u003e, \u003cspan class=pl-smi\u003eSet\u003c/span\u003e\u0026lt;\u003cspan class=pl-smi\u003eTypeElement\u003c/span\u003e\u0026gt; \u003cspan class=pl-s1\u003eop\u003c/span\u003e\u003cmark\u003e\u003cspan class=pl-s1\u003eClass\u003c/span\u003e\u003c/mark\u003e\u003cspan class=pl-s1\u003ees\u003c/span\u003e, \u003cspan class=pl-smi\u003eTypeElement\u003c/span\u003e \u003cspan class=pl-s1\u003eannotation\u003c/span\u003e) {",
+                        "    \u003cspan class=pl-smi\u003eboolean\u003c/span\u003e \u003cspan class=pl-s1\u003eresult\u003c/span\u003e = \u003cspan class=pl-c1\u003etrue\u003c/span\u003e;",
+                        "    \u003cspan class=pl-k\u003efor\u003c/span\u003e (\u003cspan class=pl-smi\u003eElement\u003c/span\u003e \u003cspan class=pl-s1\u003ee\u003c/span\u003e : \u003cspan class=pl-s1\u003eroundEnv\u003c/span\u003e.\u003cspan class=pl-en\u003egetElementsAnnotatedWith\u003c/span\u003e(\u003cspan class=pl-s1\u003eannotation\u003c/span\u003e)) {"
+                    ],
+                    "start_line": 132
+                }
+            ],
+            "match_count": 22,
+            "matches": [
+                {
+                    "start": 1301,
+                    "end": 1306
+                },
+                {
+                    "start": 1558,
+                    "end": 1563
+                },
+                {
+                    "start": 1712,
+                    "end": 1717
+                },
+                {
+                    "start": 1864,
+                    "end": 1869
+                },
+                {
+                    "start": 1937,
+                    "end": 1942
+                },
+                {
+                    "start": 3183,
+                    "end": 3188
+                },
+                {
+                    "start": 3245,
+                    "end": 3250
+                },
+                {
+                    "start": 3387,
+                    "end": 3392
+                },
+                {
+                    "start": 3860,
+                    "end": 3865
+                },
+                {
+                    "start": 3919,
+                    "end": 3924
+                },
+                {
+                    "start": 3975,
+                    "end": 3980
+                },
+                {
+                    "start": 3995,
+                    "end": 4000
+                },
+                {
+                    "start": 4091,
+                    "end": 4096
+                },
+                {
+                    "start": 4110,
+                    "end": 4115
+                },
+                {
+                    "start": 4198,
+                    "end": 4203
+                },
+                {
+                    "start": 4494,
+                    "end": 4499
+                },
+                {
+                    "start": 4891,
+                    "end": 4896
+                },
+                {
+                    "start": 5050,
+                    "end": 5055
+                },
+                {
+                    "start": 5050,
+                    "end": 5055
+                },
+                {
+                    "start": 5111,
+                    "end": 5116
+                },
+                {
+                    "start": 5432,
+                    "end": 5437
+                },
+                {
+                    "start": 5555,
+                    "end": 5560
+                }
+            ],
+            "scoring_info": {
+                "score": -15.028942,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    8,
+                    10,
+                    13
+                ],
+                "contributions": [
+                    -17.543951,
+                    -7.4414845,
+                    0,
+                    0,
+                    5,
+                    -10,
+                    0,
+                    16.456493,
+                    -1.5
+                ],
+                "symbol_matches": 1
+            }
+        },
+        {
+            "path": "guava/src/com/google/common/base/Enums.java",
+            "sha": "449b7e3a95f77ef0e566f8ad2094e265452cd0b9",
+            "ref_name": "refs/heads/master",
+            "language": "Java",
+            "repo_id": 359213388,
+            "commit_sha": "8149922bb0da0296e819b0c1508a455335e2876e",
+            "repo_name": "Mhassanbughio/guava",
+            "snippets": [
+                {
+                    "lines": [
+                        "  \u003cspan class=pl-k\u003eprivate\u003c/span\u003e \u003cspan class=pl-k\u003estatic\u003c/span\u003e \u003cspan class=pl-k\u003efinal\u003c/span\u003e \u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e \u003cspan class=pl-smi\u003eStringConverter\u003c/span\u003e\u0026lt;\u003cspan class=pl-s1\u003eT\u003c/span\u003e \u003cspan class=pl-k\u003eextends\u003c/span\u003e \u003cspan class=pl-smi\u003eEnum\u003c/span\u003e\u0026lt;\u003cspan class=pl-smi\u003eT\u003c/span\u003e\u0026gt;\u0026gt; \u003cspan class=pl-k\u003eextends\u003c/span\u003e \u003cspan class=pl-smi\u003eConverter\u003c/span\u003e\u0026lt;\u003cspan class=pl-smi\u003eString\u003c/span\u003e, \u003cspan class=pl-smi\u003eT\u003c/span\u003e\u0026gt;",
+                        "      \u003cspan class=pl-k\u003eimplements\u003c/span\u003e \u003cspan class=pl-smi\u003eSerializable\u003c/span\u003e {",
+                        "",
+                        "    \u003cspan class=pl-k\u003eprivate\u003c/span\u003e \u003cspan class=pl-k\u003efinal\u003c/span\u003e \u003cmark\u003e\u003cspan class=pl-smi\u003eClass\u003c/span\u003e\u003c/mark\u003e\u0026lt;\u003cspan class=pl-smi\u003eT\u003c/span\u003e\u0026gt; \u003cspan class=pl-s1\u003eenum\u003c/span\u003e\u003cmark\u003e\u003cspan class=pl-s1\u003eClass\u003c/span\u003e\u003c/mark\u003e;",
+                        "",
+                        "    \u003cspan class=pl-smi\u003eStringConverter\u003c/span\u003e(\u003cmark\u003e\u003cspan class=pl-smi\u003eClass\u003c/span\u003e\u003c/mark\u003e\u0026lt;\u003cspan class=pl-smi\u003eT\u003c/span\u003e\u0026gt; \u003cspan class=pl-s1\u003eenum\u003c/span\u003e\u003cmark\u003e\u003cspan class=pl-s1\u003eClass\u003c/span\u003e\u003c/mark\u003e) {",
+                        "      \u003cspan class=pl-smi\u003ethis\u003c/span\u003e.\u003cspan class=pl-s1\u003eenum\u003c/span\u003e\u003cmark\u003e\u003cspan class=pl-s1\u003eClass\u003c/span\u003e\u003c/mark\u003e = \u003cspan class=pl-en\u003echeckNotNull\u003c/span\u003e(\u003cspan class=pl-s1\u003eenum\u003c/span\u003e\u003cmark\u003e\u003cspan class=pl-s1\u003eClass\u003c/span\u003e\u003c/mark\u003e);"
+                    ],
+                    "start_line": 112
+                }
+            ],
+            "match_count": 37,
+            "matches": [
+                {
+                    "start": 1227,
+                    "end": 1232
+                },
+                {
+                    "start": 1521,
+                    "end": 1526
+                },
+                {
+                    "start": 1647,
+                    "end": 1652
+                },
+                {
+                    "start": 1686,
+                    "end": 1691
+                },
+                {
+                    "start": 2175,
+                    "end": 2180
+                },
+                {
+                    "start": 2307,
+                    "end": 2312
+                },
+                {
+                    "start": 2320,
+                    "end": 2325
+                },
+                {
+                    "start": 2364,
+                    "end": 2369
+                },
+                {
+                    "start": 2438,
+                    "end": 2443
+                },
+                {
+                    "start": 2535,
+                    "end": 2540
+                },
+                {
+                    "start": 2810,
+                    "end": 2815
+                },
+                {
+                    "start": 2823,
+                    "end": 2828
+                },
+                {
+                    "start": 2952,
+                    "end": 2957
+                },
+                {
+                    "start": 3079,
+                    "end": 3084
+                },
+                {
+                    "start": 3268,
+                    "end": 3273
+                },
+                {
+                    "start": 3281,
+                    "end": 3286
+                },
+                {
+                    "start": 3419,
+                    "end": 3424
+                },
+                {
+                    "start": 3496,
+                    "end": 3501
+                },
+                {
+                    "start": 3656,
+                    "end": 3661
+                },
+                {
+                    "start": 3689,
+                    "end": 3694
+                },
+                {
+                    "start": 3984,
+                    "end": 3989
+                },
+                {
+                    "start": 3997,
+                    "end": 4002
+                },
+                {
+                    "start": 4044,
+                    "end": 4049
+                },
+                {
+                    "start": 4080,
+                    "end": 4085
+                },
+                {
+                    "start": 4201,
+                    "end": 4206
+                },
+                {
+                    "start": 4214,
+                    "end": 4219
+                },
+                {
+                    "start": 4214,
+                    "end": 4219
+                },
+                {
+                    "start": 4242,
+                    "end": 4247
+                },
+                {
+                    "start": 4255,
+                    "end": 4260
+                },
+                {
+                    "start": 4279,
+                    "end": 4284
+                },
+                {
+                    "start": 4304,
+                    "end": 4309
+                },
+                {
+                    "start": 4405,
+                    "end": 4410
+                },
+                {
+                    "start": 4731,
+                    "end": 4736
+                },
+                {
+                    "start": 4753,
+                    "end": 4758
+                },
+                {
+                    "start": 4855,
+                    "end": 4860
+                },
+                {
+                    "start": 4969,
+                    "end": 4974
+                },
+                {
+                    "start": 4989,
+                    "end": 4994
+                }
+            ],
+            "scoring_info": {
+                "score": -19.49237,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    8,
+                    10,
+                    13
+                ],
+                "contributions": [
+                    -29.678072,
+                    -4.270793,
+                    0,
+                    0,
+                    5,
+                    -5,
+                    0,
+                    16.456493,
+                    -2
+                ],
+                "symbol_matches": 1
+            }
+        },
+        {
+            "path": "redev/symbolicVSA/CTest.java",
+            "sha": "062ab1e1acc7d8ee96bf38b402e605e659c89301",
+            "ref_name": "refs/heads/master",
+            "language": "Java",
+            "repo_id": 185118431,
+            "commit_sha": "151133f957e8fb4172cd6f0f4b750b5948df4c95",
+            "repo_name": "penhoi/ghidra-decompiler",
+            "snippets": [
+                {
+                    "lines": [
+                        "",
+                        "    }",
+                        "",
+                        "    \u003cspan class=pl-k\u003estatic\u003c/span\u003e \u003cspan class=pl-smi\u003eboolean\u003c/span\u003e \u003cspan class=pl-s1\u003epresum\u003c/span\u003e\u003cmark\u003e\u003cspan class=pl-s1\u003eClass\u003c/span\u003e\u003c/mark\u003e\u003cspan class=pl-en\u003eMethod\u003c/span\u003e (\u003cspan class=pl-smi\u003eString\u003c/span\u003e \u003cspan class=pl-s1\u003estr\u003c/span\u003e) {",
+                        "        \u003cspan class=pl-smi\u003eboolean\u003c/span\u003e  \u003cspan class=pl-s1\u003eisDash\u003c/span\u003e = \u003cspan class=pl-c1\u003efalse\u003c/span\u003e;",
+                        "        \u003cspan class=pl-smi\u003eboolean\u003c/span\u003e  \u003cspan class=pl-s1\u003eisDigit\u003c/span\u003e = \u003cspan class=pl-c1\u003efalse\u003c/span\u003e;",
+                        "        \u003cspan class=pl-smi\u003eboolean\u003c/span\u003e  \u003cspan class=pl-s1\u003eisUpcase\u003c/span\u003e = \u003cspan class=pl-c1\u003efalse\u003c/span\u003e;"
+                    ],
+                    "start_line": 34
+                }
+            ],
+            "match_count": 15,
+            "matches": [
+                {
+                    "start": 9,
+                    "end": 14
+                },
+                {
+                    "start": 128,
+                    "end": 133
+                },
+                {
+                    "start": 180,
+                    "end": 185
+                },
+                {
+                    "start": 229,
+                    "end": 234
+                },
+                {
+                    "start": 286,
+                    "end": 291
+                },
+                {
+                    "start": 337,
+                    "end": 342
+                },
+                {
+                    "start": 386,
+                    "end": 391
+                },
+                {
+                    "start": 450,
+                    "end": 455
+                },
+                {
+                    "start": 501,
+                    "end": 506
+                },
+                {
+                    "start": 550,
+                    "end": 555
+                },
+                {
+                    "start": 609,
+                    "end": 614
+                },
+                {
+                    "start": 660,
+                    "end": 665
+                },
+                {
+                    "start": 709,
+                    "end": 714
+                },
+                {
+                    "start": 757,
+                    "end": 762
+                },
+                {
+                    "start": 757,
+                    "end": 762
+                }
+            ],
+            "scoring_info": {
+                "score": -20.443089,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    8,
+                    10,
+                    13
+                ],
+                "contributions": [
+                    -26.607681,
+                    -2.791898,
+                    0,
+                    0,
+                    5,
+                    -10,
+                    0,
+                    16.456493,
+                    -2.5
+                ],
+                "symbol_matches": 1
+            }
+        },
+        {
+            "path": "tensorflow/contrib/lite/java/ovic/demo/app/OvicBenchmarkerActivity.java",
+            "sha": "48c29ecebeed42ac9a2e0bc801cab1fb1f9201e8",
+            "ref_name": "refs/heads/master",
+            "language": "Java",
+            "repo_id": 155938265,
+            "commit_sha": "07b28297c293704393a79b534f74e7af9f4f6da1",
+            "repo_name": "theta360developers/tensorflow-theta",
+            "snippets": [
+                {
+                    "lines": [
+                        "  \u003cspan class=pl-k\u003epublic\u003c/span\u003e \u003cspan class=pl-smi\u003evoid\u003c/span\u003e \u003cspan class=pl-en\u003edetectPressed\u003c/span\u003e(\u003cspan class=pl-smi\u003eView\u003c/span\u003e \u003cspan class=pl-s1\u003eview\u003c/span\u003e) \u003cspan class=pl-k\u003ethrows\u003c/span\u003e \u003cspan class=pl-smi\u003eIOException\u003c/span\u003e {",
+                        "    \u003cspan class=pl-en\u003ebenchmarkSession\u003c/span\u003e(\u003cspan class=pl-c1\u003efalse\u003c/span\u003e);",
+                        "  }",
+                        "  \u003cspan class=pl-k\u003epublic\u003c/span\u003e \u003cspan class=pl-smi\u003evoid\u003c/span\u003e \u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e\u003cspan class=pl-en\u003eifyPressed\u003c/span\u003e(\u003cspan class=pl-smi\u003eView\u003c/span\u003e \u003cspan class=pl-s1\u003eview\u003c/span\u003e) \u003cspan class=pl-k\u003ethrows\u003c/span\u003e \u003cspan class=pl-smi\u003eIOException\u003c/span\u003e {",
+                        "    \u003cspan class=pl-en\u003ebenchmarkSession\u003c/span\u003e(\u003cspan class=pl-c1\u003etrue\u003c/span\u003e);",
+                        "  }",
+                        ""
+                    ],
+                    "start_line": 145
+                }
+            ],
+            "match_count": 13,
+            "matches": [
+                {
+                    "start": 1395,
+                    "end": 1400
+                },
+                {
+                    "start": 1475,
+                    "end": 1480
+                },
+                {
+                    "start": 1502,
+                    "end": 1507
+                },
+                {
+                    "start": 1531,
+                    "end": 1536
+                },
+                {
+                    "start": 3400,
+                    "end": 3405
+                },
+                {
+                    "start": 3499,
+                    "end": 3504
+                },
+                {
+                    "start": 3545,
+                    "end": 3550
+                },
+                {
+                    "start": 5668,
+                    "end": 5673
+                },
+                {
+                    "start": 5668,
+                    "end": 5673
+                },
+                {
+                    "start": 5798,
+                    "end": 5803
+                },
+                {
+                    "start": 5875,
+                    "end": 5880
+                },
+                {
+                    "start": 6043,
+                    "end": 6048
+                },
+                {
+                    "start": 6082,
+                    "end": 6087
+                }
+            ],
+            "scoring_info": {
+                "score": -22.181923,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    8,
+                    10,
+                    13
+                ],
+                "contributions": [
+                    -28.668072,
+                    -6.9703445,
+                    0,
+                    0,
+                    5,
+                    -5,
+                    0,
+                    16.456493,
+                    -3
+                ],
+                "symbol_matches": 1
+            }
+        },
+        {
+            "path": "tensorflow/java/src/main/java/org/tensorflow/Tensor.java",
+            "sha": "40f0e7b886b6a015964e4bc1d109c8e6142e010e",
+            "ref_name": "refs/heads/master",
+            "language": "Java",
+            "repo_id": 105520403,
+            "commit_sha": "e3ceea3f65a4091b2a13f3e9c34bf4d1cf3c27fe",
+            "repo_name": "yuqian1023/tensorflow",
+            "snippets": [
+                {
+                    "lines": [
+                        "    }",
+                        "  }",
+                        "",
+                        "  \u003cspan class=pl-k\u003eprivate\u003c/span\u003e \u003cspan class=pl-k\u003estatic\u003c/span\u003e \u003cspan class=pl-smi\u003eHashMap\u003c/span\u003e\u0026lt;\u003cmark\u003e\u003cspan class=pl-smi\u003eClass\u003c/span\u003e\u003c/mark\u003e\u0026lt;?\u0026gt;, \u003cspan class=pl-smi\u003eDataType\u003c/span\u003e\u0026gt; \u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e\u003cspan class=pl-s1\u003eDataTypes\u003c/span\u003e = \u003cspan class=pl-k\u003enew\u003c/span\u003e \u003cspan class=pl-smi\u003eHashMap\u003c/span\u003e\u0026lt;\u0026gt;();",
+                        "",
+                        "  \u003cspan class=pl-k\u003estatic\u003c/span\u003e {",
+                        "    \u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e\u003cspan class=pl-s1\u003eDataTypes\u003c/span\u003e.\u003cspan class=pl-s1\u003eput\u003c/span\u003e(\u003cspan class=pl-smi\u003eint\u003c/span\u003e.\u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e, \u003cspan class=pl-smi\u003eDataType\u003c/span\u003e.\u003cspan class=pl-c1\u003eINT32\u003c/span\u003e);"
+                    ],
+                    "start_line": 615
+                }
+            ],
+            "match_count": 51,
+            "matches": [
+                {
+                    "start": 1511,
+                    "end": 1516
+                },
+                {
+                    "start": 2180,
+                    "end": 2185
+                },
+                {
+                    "start": 2324,
+                    "end": 2329
+                },
+                {
+                    "start": 2805,
+                    "end": 2810
+                },
+                {
+                    "start": 3123,
+                    "end": 3128
+                },
+                {
+                    "start": 3306,
+                    "end": 3311
+                },
+                {
+                    "start": 3689,
+                    "end": 3694
+                },
+                {
+                    "start": 3889,
+                    "end": 3894
+                },
+                {
+                    "start": 4128,
+                    "end": 4133
+                },
+                {
+                    "start": 4179,
+                    "end": 4184
+                },
+                {
+                    "start": 4542,
+                    "end": 4547
+                },
+                {
+                    "start": 9495,
+                    "end": 9500
+                },
+                {
+                    "start": 9755,
+                    "end": 9760
+                },
+                {
+                    "start": 9890,
+                    "end": 9895
+                },
+                {
+                    "start": 11694,
+                    "end": 11699
+                },
+                {
+                    "start": 11742,
+                    "end": 11747
+                },
+                {
+                    "start": 20590,
+                    "end": 20595
+                },
+                {
+                    "start": 21669,
+                    "end": 21674
+                },
+                {
+                    "start": 21878,
+                    "end": 21883
+                },
+                {
+                    "start": 21898,
+                    "end": 21903
+                },
+                {
+                    "start": 21898,
+                    "end": 21903
+                },
+                {
+                    "start": 21948,
+                    "end": 21953
+                },
+                {
+                    "start": 21971,
+                    "end": 21976
+                },
+                {
+                    "start": 21999,
+                    "end": 22004
+                },
+                {
+                    "start": 22026,
+                    "end": 22031
+                },
+                {
+                    "start": 22054,
+                    "end": 22059
+                },
+                {
+                    "start": 22078,
+                    "end": 22083
+                },
+                {
+                    "start": 22106,
+                    "end": 22111
+                },
+                {
+                    "start": 22130,
+                    "end": 22135
+                },
+                {
+                    "start": 22158,
+                    "end": 22163
+                },
+                {
+                    "start": 22183,
+                    "end": 22188
+                },
+                {
+                    "start": 22211,
+                    "end": 22216
+                },
+                {
+                    "start": 22236,
+                    "end": 22241
+                },
+                {
+                    "start": 22264,
+                    "end": 22269
+                },
+                {
+                    "start": 22290,
+                    "end": 22295
+                },
+                {
+                    "start": 22319,
+                    "end": 22324
+                },
+                {
+                    "start": 22345,
+                    "end": 22350
+                },
+                {
+                    "start": 22374,
+                    "end": 22379
+                },
+                {
+                    "start": 22398,
+                    "end": 22403
+                },
+                {
+                    "start": 22427,
+                    "end": 22432
+                },
+                {
+                    "start": 22451,
+                    "end": 22456
+                },
+                {
+                    "start": 22480,
+                    "end": 22485
+                },
+                {
+                    "start": 22507,
+                    "end": 22512
+                },
+                {
+                    "start": 22534,
+                    "end": 22539
+                },
+                {
+                    "start": 22561,
+                    "end": 22566
+                },
+                {
+                    "start": 22925,
+                    "end": 22930
+                },
+                {
+                    "start": 22943,
+                    "end": 22948
+                },
+                {
+                    "start": 23035,
+                    "end": 23040
+                },
+                {
+                    "start": 23964,
+                    "end": 23969
+                },
+                {
+                    "start": 23982,
+                    "end": 23987
+                },
+                {
+                    "start": 26193,
+                    "end": 26198
+                }
+            ],
+            "scoring_info": {
+                "score": -23.864231,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    8,
+                    10,
+                    13
+                ],
+                "contributions": [
+                    -30,
+                    -5.5358505,
+                    0,
+                    0,
+                    3.7151253,
+                    -5,
+                    0,
+                    16.456493,
+                    -3.5
+                ],
+                "symbol_matches": 1
+            }
+        },
+        {
+            "path": "tensorflow/examples/android/src/org/tensorflow/demo/ClassifierActivity.java",
+            "sha": "cc2a3b15ebed6f6d35e9bfca696e08ec509694c0",
+            "ref_name": "refs/heads/master",
+            "language": "Java",
+            "repo_id": 84279608,
+            "commit_sha": "2e8cf80592d875efe98aceae09b720f7b51ff469",
+            "repo_name": "dreamlxt17/tensorflow",
+            "snippets": [
+                {
+                    "lines": [
+                        "\u003cspan class=pl-k\u003eimport\u003c/span\u003e \u003cspan class=pl-s1\u003eorg\u003c/span\u003e.\u003cspan class=pl-s1\u003etensorflow\u003c/span\u003e.\u003cspan class=pl-s1\u003edemo\u003c/span\u003e.\u003cspan class=pl-s1\u003eenv\u003c/span\u003e.\u003cspan class=pl-s1\u003eLogger\u003c/span\u003e;",
+                        "\u003cspan class=pl-k\u003eimport\u003c/span\u003e \u003cspan class=pl-s1\u003eorg\u003c/span\u003e.\u003cspan class=pl-s1\u003etensorflow\u003c/span\u003e.\u003cspan class=pl-s1\u003edemo\u003c/span\u003e.\u003cspan class=pl-s1\u003eR\u003c/span\u003e;",
+                        "",
+                        "\u003cspan class=pl-k\u003epublic\u003c/span\u003e \u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e \u003cmark\u003e\u003cspan class=pl-s1\u003eClass\u003c/span\u003e\u003c/mark\u003e\u003cspan class=pl-smi\u003eifierActivity\u003c/span\u003e \u003cspan class=pl-k\u003eextends\u003c/span\u003e \u003cspan class=pl-smi\u003eCameraActivity\u003c/span\u003e \u003cspan class=pl-k\u003eimplements\u003c/span\u003e \u003cspan class=pl-smi\u003eOnImageAvailableListener\u003c/span\u003e {",
+                        "  \u003cspan class=pl-k\u003eprivate\u003c/span\u003e \u003cspan class=pl-k\u003estatic\u003c/span\u003e \u003cspan class=pl-k\u003efinal\u003c/span\u003e \u003cspan class=pl-smi\u003eLogger\u003c/span\u003e \u003cspan class=pl-c1\u003eLOGGER\u003c/span\u003e = \u003cspan class=pl-k\u003enew\u003c/span\u003e \u003cspan class=pl-smi\u003eLogger\u003c/span\u003e();",
+                        "",
+                        "  \u003cspan class=pl-c\u003e// These are the settings for the original v1 Inception model. If you want to\u003c/span\u003e"
+                    ],
+                    "start_line": 39
+                }
+            ],
+            "match_count": 13,
+            "matches": [
+                {
+                    "start": 1425,
+                    "end": 1430
+                },
+                {
+                    "start": 1431,
+                    "end": 1436
+                },
+                {
+                    "start": 1431,
+                    "end": 1436
+                },
+                {
+                    "start": 2869,
+                    "end": 2874
+                },
+                {
+                    "start": 2880,
+                    "end": 2885
+                },
+                {
+                    "start": 2880,
+                    "end": 2885
+                },
+                {
+                    "start": 3993,
+                    "end": 3998
+                },
+                {
+                    "start": 4031,
+                    "end": 4036
+                },
+                {
+                    "start": 7172,
+                    "end": 7177
+                },
+                {
+                    "start": 7206,
+                    "end": 7211
+                },
+                {
+                    "start": 7606,
+                    "end": 7611
+                },
+                {
+                    "start": 8204,
+                    "end": 8209
+                },
+                {
+                    "start": 8254,
+                    "end": 8259
+                }
+            ],
+            "scoring_info": {
+                "score": -25.043507,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    8,
+                    10,
+                    13
+                ],
+                "contributions": [
+                    -30,
+                    0,
+                    0,
+                    0,
+                    5,
+                    -5,
+                    0,
+                    16.456493,
+                    -11.5
+                ],
+                "symbol_matches": 2
+            }
+        },
+        {
+            "path": "factory-kit/src/main/java/com/iluwatar/factorykit/App.java",
+            "sha": "416b3d39b16a50a9515cada07f11ada6e4b97fd8",
+            "ref_name": "refs/heads/master",
+            "language": "Java",
+            "repo_id": 22790488,
+            "commit_sha": "4bea173e642ce550d84075af0e43efa7f61be359",
+            "repo_name": "iluwatar/java-design-patterns",
+            "snippets": [
+                {
+                    "lines": [
+                        "\u003cspan class=pl-c\u003e * an input representing an instance of {@link WeaponType} that needs to be mapped explicitly with\u003c/span\u003e",
+                        "\u003cspan class=pl-c\u003e * desired \u003cmark\u003eclass\u003c/mark\u003e type in the factory instance.\u003c/span\u003e",
+                        "\u003cspan class=pl-c\u003e */\u003c/span\u003e"
+                    ],
+                    "start_line": 39
+                },
+                {
+                    "lines": [
+                        "\u003cspan class=pl-c1\u003e@\u003c/span\u003e\u003cspan class=pl-c1\u003eSlf4j\u003c/span\u003e",
+                        "\u003cspan class=pl-k\u003epublic\u003c/span\u003e \u003cmark\u003e\u003cspan class=pl-k\u003eclass\u003c/span\u003e\u003c/mark\u003e \u003cspan class=pl-smi\u003eApp\u003c/span\u003e {",
+                        ""
+                    ],
+                    "start_line": 42
+                }
+            ],
+            "match_count": 3,
+            "matches": [
+                {
+                    "start": 1778,
+                    "end": 1783
+                },
+                {
+                    "start": 2030,
+                    "end": 2035
+                },
+                {
+                    "start": 2084,
+                    "end": 2089
+                }
+            ],
+            "scoring_info": {
+                "score": -26.430296,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    8,
+                    10,
+                    13
+                ],
+                "contributions": [
+                    -3.7014942,
+                    -5.7288013,
+                    0,
+                    0,
+                    5,
+                    0,
+                    0,
+                    0,
+                    -22
+                ],
+                "symbol_matches": 0
+            }
+        }
+    ],
+    "error": "",
+    "failed": false,
+    "epoch_id": 298,
+    "index_version": 49,
+    "request_id": "81E0:17A1:66F846:16662E5:64441FC4",
+    "results_count": 100,
+    "is_treelights_avail": true,
+    "search_elapsed_ms": 119,
+    "facets": [
+        {
+            "kind": "Repositories",
+            "facets": [
+                {
+                    "name": "iluwatar/java-design-patterns",
+                    "owner": "iluwatar",
+                    "query": "repo:iluwatar/java-design-patterns",
+                    "occurrences": 2,
+                    "score": 0.021278977461950215
+                },
+                {
+                    "name": "google/guava",
+                    "owner": "google",
+                    "query": "repo:google/guava",
+                    "occurrences": 1,
+                    "score": 0.0009643709095454098
+                },
+                {
+                    "name": "joytunes/tensorflow",
+                    "owner": "joytunes",
+                    "query": "repo:joytunes/tensorflow",
+                    "occurrences": 1,
+                    "score": 0.000035424598882464675
+                },
+                {
+                    "name": "benoitsteiner/tensorflow-opencl",
+                    "owner": "benoitsteiner",
+                    "query": "repo:benoitsteiner/tensorflow-opencl",
+                    "occurrences": 1,
+                    "score": 2.9717575420894563e-7
+                },
+                {
+                    "name": "Mhassanbughio/guava",
+                    "owner": "Mhassanbughio",
+                    "query": "repo:Mhassanbughio/guava",
+                    "occurrences": 1,
+                    "score": 3.424293700026134e-9
+                },
+                {
+                    "name": "penhoi/ghidra-decompiler",
+                    "owner": "penhoi",
+                    "query": "repo:penhoi/ghidra-decompiler",
+                    "occurrences": 1,
+                    "score": 1.323364431266219e-9
+                },
+                {
+                    "name": "theta360developers/tensorflow-theta",
+                    "owner": "theta360developers",
+                    "query": "repo:theta360developers/tensorflow-theta",
+                    "occurrences": 1,
+                    "score": 2.3254835998429874e-10
+                },
+                {
+                    "name": "yuqian1023/tensorflow",
+                    "owner": "yuqian1023",
+                    "query": "repo:yuqian1023/tensorflow",
+                    "occurrences": 1,
+                    "score": 4.3241038357867694e-11
+                },
+                {
+                    "name": "dreamlxt17/tensorflow",
+                    "owner": "dreamlxt17",
+                    "query": "repo:dreamlxt17/tensorflow",
+                    "occurrences": 1,
+                    "score": 1.3296681510606766e-11
+                },
+                {
+                    "name": "espressif/tensorflow",
+                    "owner": "espressif",
+                    "query": "repo:espressif/tensorflow",
+                    "occurrences": 1,
+                    "score": 2.9042773942986022e-12
+                },
+                {
+                    "name": "secti6n/interviews",
+                    "owner": "secti6n",
+                    "query": "repo:secti6n/interviews",
+                    "occurrences": 1,
+                    "score": 1.038223876222246e-12
+                },
+                {
+                    "name": "xitu/interviews",
+                    "owner": "xitu",
+                    "query": "repo:xitu/interviews",
+                    "occurrences": 1,
+                    "score": 9.969277918693982e-13
+                },
+                {
+                    "name": "shi1123/algo",
+                    "owner": "shi1123",
+                    "query": "repo:shi1123/algo",
+                    "occurrences": 1,
+                    "score": 7.660991827177885e-13
+                },
+                {
+                    "name": "typetools/guava",
+                    "owner": "typetools",
+                    "query": "repo:typetools/guava",
+                    "occurrences": 7,
+                    "score": 6.036720194185667e-13
+                },
+                {
+                    "name": "smedals/java-design-patterns",
+                    "owner": "smedals",
+                    "query": "repo:smedals/java-design-patterns",
+                    "occurrences": 18,
+                    "score": 4.715548993863119e-13
+                }
+            ]
+        }
+    ],
+    "query_errors": null,
+    "page_token": "a1d1fca2f1209bf4b26a231645e42878449b7e3a062ab1e148c29ece40f0e7b8cc2a3b15416b3d39be1302ba236452f8ff3113372d8649e57c9c564461665a59d0e037a85c55b659988b4043dc1ee18b8f3e03b74a457b1521fe5ff250177ef63524160dd4b75362462bfa138852e83082f0b0efebc5b01e9e3cb5f6f6063119569314ac025dd6e6d898735c7a6af6fca9e61a34796d6a6200c2e00f1f8d3d0e7db4d37cb8e63d5091b2831320d63aabdc864aa9cbbd97a4ee4780f1a41cbc1e24471c9ec5b26e1e793a00aa3114c6b153443fd95a233bcc8e613cb60376952be38ad34523021691eb004d5baedf3ade289b0f371e8f3804201dfd61757343e7ad28eb27ab128c2b998d06681bb3a8daf4671c8ad6647d03f353ee31990536f2f804daebf45f9bc8a74e084ee37d3380d557fc4a64c34dca2e3f8d4e686df02f7d1969677b75ead24815e125923c720df1904a66ecc6ec71cd5fc0b3c6989cd5a7a237c1a2fb35e18b2e8ab435a565cfab34f6aa2a5d464d008f3bc782cfcb4848e30a520e9bb5891d1d0a4950b2f97a",
+    "page_number": 1,
+    "total_pages": 5,
+    "serving_offset_queried": 153892166
+}

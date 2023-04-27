@@ -1,0 +1,296 @@
+{
+    "results": [
+        {
+            "path": "README.md",
+            "sha": "7f41e7bd259a78d4d1fe7e743702f146f5c73846",
+            "ref_name": "refs/heads/master",
+            "language": "Markdown",
+            "repo_id": 83222441,
+            "commit_sha": "a07e261677c012d37d26255de6e7b128a2643946",
+            "repo_name": "donnemartin/system-design-primer",
+            "snippets": [
+                {
+                    "lines": [
+                        "\u003cspan class=\"pl-c1\"\u003e\u003cspan class=\"pl-c1\"\u003e```\u003c/span\u003e\u003c/span\u003e",
+                        "\u003cspan class=\"pl-c1\"\u003eAvailability (Total) = Availability (\u003cmark\u003eFoo\u003c/mark\u003e) * Availability (Bar)\u003c/span\u003e",
+                        "\u003cspan class=\"pl-c1\"\u003e\u003cspan class=\"pl-c1\"\u003e```\u003c/span\u003e\u003c/span\u003e"
+                    ],
+                    "start_line": 565
+                },
+                {
+                    "lines": [
+                        "",
+                        "If both \u003cspan class=\"pl-c1\"\u003e`\u003cmark\u003eFoo\u003c/mark\u003e`\u003c/span\u003e and \u003cspan class=\"pl-c1\"\u003e`Bar`\u003c/span\u003e each had 99.9% availability, their total availability in sequence would be 99.8%.",
+                        ""
+                    ],
+                    "start_line": 568
+                }
+            ],
+            "match_count": 5,
+            "matches": [
+                {
+                    "start": 26471,
+                    "end": 26474
+                },
+                {
+                    "start": 26511,
+                    "end": 26514
+                },
+                {
+                    "start": 26773,
+                    "end": 26776
+                },
+                {
+                    "start": 26820,
+                    "end": 26823
+                },
+                {
+                    "start": 67535,
+                    "end": 67538
+                }
+            ],
+            "scoring_info": {
+                "score": -0.97829837,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    10
+                ],
+                "contributions": [
+                    -1.546554,
+                    -0.8997302,
+                    0,
+                    1,
+                    0.46798593,
+                    0,
+                    0
+                ],
+                "symbol_matches": 0
+            }
+        },
+        {
+            "path": "readme.md",
+            "sha": "52ed2fb6862cc47ac4decfe8121139ead907a148",
+            "ref_name": "refs/heads/main",
+            "language": "Markdown",
+            "repo_id": 21737465,
+            "commit_sha": "b26d26bd1ad3e80f971edd78640d5a98b2c8e875",
+            "repo_name": "sindresorhus/awesome",
+            "snippets": [
+                {
+                    "lines": [
+                        "\u003cspan class=\"pl-v\"\u003e-\u003c/span\u003e [\u003cspan class=\"pl-e\"\u003eBoard Games\u003c/span\u003e](https://github.com/edm00se/awesome-board-games#readme) - Table-top gaming fun for all.",
+                        "\u003cspan class=\"pl-v\"\u003e-\u003c/span\u003e [\u003cspan class=\"pl-e\"\u003eSoftware Patreons\u003c/span\u003e](https://github.com/uraimo/awesome-software-patreons#readme) - Fund individual programmers or the development of open source projects.",
+                        "\u003cspan class=\"pl-v\"\u003e-\u003c/span\u003e [\u003cspan class=\"pl-e\"\u003eParasite\u003c/span\u003e](https://github.com/ecohealthalliance/awesome-parasite#readme) - Parasites and host-pathogen interactions.",
+                        "\u003cspan class=\"pl-v\"\u003e-\u003c/span\u003e [\u003cspan class=\"pl-e\"\u003e\u003cmark\u003eFoo\u003c/mark\u003ed\u003c/span\u003e](https://github.com/jzarca01/awesome-\u003cmark\u003efoo\u003c/mark\u003ed#readme) - \u003cmark\u003eFoo\u003c/mark\u003ed-related projects on GitHub.",
+                        "\u003cspan class=\"pl-v\"\u003e-\u003c/span\u003e [\u003cspan class=\"pl-e\"\u003eBitcoin Payment Processors\u003c/span\u003e](https://github.com/alexk111/awesome-bitcoin-payment-processors#readme) - Start accepting Bitcoin.",
+                        "\u003cspan class=\"pl-v\"\u003e-\u003c/span\u003e [\u003cspan class=\"pl-e\"\u003eScientific Computing\u003c/span\u003e](https://github.com/nschloe/awesome-scientific-computing#readme) - Solving complex scientific problems using computers.",
+                        "\u003cspan class=\"pl-v\"\u003e-\u003c/span\u003e [\u003cspan class=\"pl-e\"\u003eAmazon Sellers\u003c/span\u003e](https://github.com/ScaleLeap/awesome-amazon-seller#readme)"
+                    ],
+                    "start_line": 888
+                }
+            ],
+            "match_count": 3,
+            "matches": [
+                {
+                    "start": 70524,
+                    "end": 70527
+                },
+                {
+                    "start": 70566,
+                    "end": 70569
+                },
+                {
+                    "start": 70581,
+                    "end": 70584
+                }
+            ],
+            "scoring_info": {
+                "score": -11.097456,
+                "factors": [
+                    1,
+                    9,
+                    11,
+                    5,
+                    4,
+                    7,
+                    10,
+                    13
+                ],
+                "contributions": [
+                    -1.1081359,
+                    -0.8997302,
+                    0,
+                    1,
+                    0.41040987,
+                    -10,
+                    0,
+                    -0.5
+                ],
+                "symbol_matches": 0
+            }
+        }
+    ],
+    "error": "",
+    "failed": false,
+    "epoch_id": 298,
+    "index_version": 49,
+    "request_id": "A186:5796:68DC:3C8A2:64419E90",
+    "results_count": 100,
+    "is_treelights_avail": true,
+    "search_elapsed_ms": 228,
+    "facets": [
+        {
+            "kind": "Languages",
+            "facets": [
+                {
+                    "name": "Markdown",
+                    "owner": "",
+                    "query": "language:Markdown",
+                    "occurrences": 71,
+                    "score": 0.3759674267529132
+                },
+                {
+                    "name": "Makefile",
+                    "owner": "",
+                    "query": "language:Makefile",
+                    "occurrences": 16,
+                    "score": 1.0768548826516802e-7
+                },
+                {
+                    "name": "C",
+                    "owner": "",
+                    "query": "language:C",
+                    "occurrences": 12,
+                    "score": 3.946909264709586e-14
+                },
+                {
+                    "name": "TypeScript",
+                    "owner": "",
+                    "query": "language:TypeScript",
+                    "occurrences": 1,
+                    "score": 1.7758695829117675e-17
+                }
+            ]
+        },
+        {
+            "kind": "Repositories",
+            "facets": [
+                {
+                    "name": "donnemartin/system-design-primer",
+                    "owner": "donnemartin",
+                    "query": "repo:donnemartin/system-design-primer",
+                    "occurrences": 1,
+                    "score": 0.37595028462745694
+                },
+                {
+                    "name": "sindresorhus/awesome",
+                    "owner": "sindresorhus",
+                    "query": "repo:sindresorhus/awesome",
+                    "occurrences": 1,
+                    "score": 0.00001515081884350049
+                },
+                {
+                    "name": "freeCodeCamp/freeCodeCamp",
+                    "owner": "freeCodeCamp",
+                    "query": "repo:freeCodeCamp/freeCodeCamp",
+                    "occurrences": 1,
+                    "score": 0.000001984487544155557
+                },
+                {
+                    "name": "beagleboard/linux",
+                    "owner": "beagleboard",
+                    "query": "repo:beagleboard/linux",
+                    "occurrences": 1,
+                    "score": 1.0768331374579932e-7
+                },
+                {
+                    "name": "baidu-research/tensorflow-allreduce",
+                    "owner": "baidu-research",
+                    "query": "repo:baidu-research/tensorflow-allreduce",
+                    "occurrences": 1,
+                    "score": 6.816843872917911e-9
+                },
+                {
+                    "name": "anthraxx/linux-hardened",
+                    "owner": "anthraxx",
+                    "query": "repo:anthraxx/linux-hardened",
+                    "occurrences": 1,
+                    "score": 1.971311603329036e-12
+                },
+                {
+                    "name": "probonopd/awesome",
+                    "owner": "probonopd",
+                    "query": "repo:probonopd/awesome",
+                    "occurrences": 1,
+                    "score": 1.8541625975988136e-12
+                },
+                {
+                    "name": "andr2000/linux",
+                    "owner": "andr2000",
+                    "query": "repo:andr2000/linux",
+                    "occurrences": 1,
+                    "score": 6.180565248725497e-14
+                },
+                {
+                    "name": "labuladong/system-design-primer",
+                    "owner": "labuladong",
+                    "query": "repo:labuladong/system-design-primer",
+                    "occurrences": 1,
+                    "score": 5.009978520911522e-14
+                },
+                {
+                    "name": "jfinal/tensorflow",
+                    "owner": "jfinal",
+                    "query": "repo:jfinal/tensorflow",
+                    "occurrences": 1,
+                    "score": 4.1546461693459005e-14
+                },
+                {
+                    "name": "rookiejava/tensorflow",
+                    "owner": "rookiejava",
+                    "query": "repo:rookiejava/tensorflow",
+                    "occurrences": 1,
+                    "score": 4.094902311090316e-14
+                },
+                {
+                    "name": "Lyude/linux",
+                    "owner": "Lyude",
+                    "query": "repo:Lyude/linux",
+                    "occurrences": 1,
+                    "score": 4.0235812560280876e-14
+                },
+                {
+                    "name": "xiamaz/tensorflow",
+                    "owner": "xiamaz",
+                    "query": "repo:xiamaz/tensorflow",
+                    "occurrences": 1,
+                    "score": 3.973172092092724e-14
+                },
+                {
+                    "name": "brauner/linux",
+                    "owner": "brauner",
+                    "query": "repo:brauner/linux",
+                    "occurrences": 1,
+                    "score": 3.96095209046877e-14
+                },
+                {
+                    "name": "6by9/upstream-linux",
+                    "owner": "6by9",
+                    "query": "repo:6by9/upstream-linux",
+                    "occurrences": 1,
+                    "score": 3.902102659003251e-14
+                }
+            ]
+        }
+    ],
+    "query_errors": null,
+    "page_token": "7f41e7bd52ed2fb676a8801ec3ec1ea4da297b2ea28bb37410b7da990fcee96c88d7927f3ccae2544a1deb36c08362d39ca3b87e1d529835fe6d0526238a7ae354edea4b1a2628ee11010c1bb5d384725f008f126b101fbc3db4cb06220be36411339110bbe95077fc6b61288429ee59b32511499d4903de086c73476fb794457f58d0382d4057337bb1e3e10b9d5afd763ef3b2a897c50d8b7bf729e63971ef1f6b6d7e353bbf8142cb8cffbb19f047fd894e4eaac2405fdc6295f933fce86ba5e9d938eb1f59738db6be7d329a88572aeafaeef3b843f93160dff6db70e6d6206f8ae09fce8b915fc04c87bf3786e47214f075ca2af1abab067d515cd28abdad852e4739de1d6a6f3aa94ceed0f3cb39b2a0b8eae539d6d33ab74baa59836b786c9a5471205e3d8327db0cfe26380442154e7c4ceba13ae9e3ddaa931e3c38b361d2f2cb41a2cc7dedf1109aa683e271c533596ee9884cf97f6655aa471f89f2d0b08187e911eaa3d2a37079933efbd8db1f72b906ff70255cec57fd43e0e3498a317815de279cb608ec326155a9bb",
+    "page_number": 1,
+    "total_pages": 5,
+    "serving_offset_queried": 147074869
+}

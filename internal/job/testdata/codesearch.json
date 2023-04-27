@@ -1,0 +1,4 @@
+[{
+    "query": "path:**.java class",
+    "max_page": 5
+}]
