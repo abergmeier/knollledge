@@ -3,21 +3,16 @@ package config
 import "github.com/abergmeier/knollledge/internal/job"
 
 var (
-	predefinedCodeSearches = map[string]job.MakeCodeSearchFunc{
-		"bazel-package":           job.MakeBazelPackageCodeSearch,
-		"buf-configuration":       job.MakeBufConfigurationCodeSearch,
-		"cargo-configuration":     job.MakeCargoConfigurationCodeSearch,
-		"container-configuration": job.MakeContainerConfigurationCodeSearch,
-		"go-modules":              job.MakeGoModuleCodeSearch,
-		"poetry-configuration":    job.MakePoetryConfigurationCodeSearch,
-		"protobuf-definition":     job.MakeProtobufDefinitionCodeSearch,
-		"skaffold-configuration":  job.MakeSkaffoldConfigurationCodeSearch,
-		"terraform-backend":       job.MakeTerraformBackendCodeSearch,
-		"terraform-gke-cluster":   job.MakeTerraformGKECluster,
-	}
+	codeSearches = make(map[string]job.MakeCodeSearchFunc, len(predefinedCodeSearches))
 )
 
+func init() {
+	for k, cs := range codeSearches {
+		codeSearches[k] = cs
+	}
+}
+
 func mustToCodeSearch(name string, queryPrefix string) job.CodeSearch {
-	csf := predefinedCodeSearches[name]
+	csf := codeSearches[name]
 	return csf(queryPrefix)
 }
